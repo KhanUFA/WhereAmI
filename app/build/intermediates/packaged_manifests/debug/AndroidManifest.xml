@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.starikov.bpo1802.whereami"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="30" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@mipmap/icon_where_am_i"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_where_am_i"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.WhereAmI" >
+        <activity
+            android:name="com.starikov.bpo1802.whereami.ResultActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.starikov.bpo1802.whereami.GameActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.starikov.bpo1802.whereami.SelectSide"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.starikov.bpo1802.whereami.SelectFloor"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.starikov.bpo1802.whereami.MainActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

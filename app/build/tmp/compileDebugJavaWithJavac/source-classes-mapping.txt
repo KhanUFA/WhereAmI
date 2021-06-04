@@ -1,0 +1,17 @@
+com/starikov/bpo1802/whereami/TileViewActivity.java
+ com.starikov.bpo1802.whereami.TileViewActivity
+ com.starikov.bpo1802.whereami.TileViewActivity$1
+com/starikov/bpo1802/whereami/BuildConfig.java
+ com.starikov.bpo1802.whereami.BuildConfig
+com/starikov/bpo1802/whereami/Database/DatabaseHelper.java
+ com.starikov.bpo1802.whereami.Database.DatabaseHelper
+com/starikov/bpo1802/whereami/ResultActivity.java
+ com.starikov.bpo1802.whereami.ResultActivity
+com/starikov/bpo1802/whereami/SelectFloor.java
+ com.starikov.bpo1802.whereami.SelectFloor
+com/starikov/bpo1802/whereami/MainActivity.java
+ com.starikov.bpo1802.whereami.MainActivity
+com/starikov/bpo1802/whereami/SelectSide.java
+ com.starikov.bpo1802.whereami.SelectSide
+com/starikov/bpo1802/whereami/GameActivity.java
+ com.starikov.bpo1802.whereami.GameActivity

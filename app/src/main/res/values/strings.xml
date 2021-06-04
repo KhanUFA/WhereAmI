@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Where am I</string>
+    <string name="strfloor1">1</string>
+    <string name="strfloor2">2</string>
+    <string name="strfloor3">3</string>
+    <string name="strfloor4">4</string>
+    <string name="strfloor5">5</string>
+</resources>
